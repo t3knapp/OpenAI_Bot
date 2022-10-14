@@ -8,8 +8,8 @@ import openai
 from dotenv import load_dotenv
 
 load_dotenv()
-DISCORD_TOKEN = os.getenv('DISCORD_TOKEN')
-openai.api_key = os.getenv("OPENAI_API_KEY")
+DISCORD_TOKEN = os.environ['DISCORD_TOKEN']
+openai.api_key = os.environ["OPENAI_API_KEY"]
 
 bot = discord.Client(intents=discord.Intents.all())
 

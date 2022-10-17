@@ -1,2 +1,1 @@
-worker: python 
-OpenAI_bot.py
+worker: python OpenAI_bot.py
